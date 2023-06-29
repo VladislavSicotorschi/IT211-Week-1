@@ -1,6 +1,8 @@
-//firstName, lastName, yearsOfStudy, and goal.
 
-let firstName = Vladislav;
-let lastName = Sicotorschi;
-let yearsOfStudy = 3 months;
-let goal = "Learn as much as i can and apply that knowledge";
+const firstName = "Vladislav";
+const lastName = "Sicotorschi";
+const yearsOfStudy = "3 months";
+const goal = "learn as much as i can, aswell as apply that knowledge";
+
+let myDiv = document.getElementById("aboutMe");
+myDiv.innerHTML = "My Name is " + firstName +" "+ lastName + ". I have been at SCC for " + yearsOfStudy + " and i plan to "+ goal + "after completing my courses.";
